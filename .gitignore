@@ -36,5 +36,5 @@ out/
 ### VS Code ###
 .vscode/
 
-### Temporary folder ###
-/upload
+### NPM build data ###
+/src/main/resources/static/*
