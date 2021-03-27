@@ -38,20 +38,19 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld/>
+      <v-btn color="primary" rounded outlined flat to="/">Home</v-btn>
+      <v-btn color="primary" rounded outlined flat to="/Sample">Sample</v-btn>
+      <v-btn color="primary" rounded outlined flat to="/About">About</v-btn>
+
+      <router-view />
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
 
 export default {
   name: 'App',
-
-  components: {
-    HelloWorld,
-  },
 
   data: () => ({
     //
