@@ -38,9 +38,9 @@
     </v-app-bar>
 
     <v-main>
-      <v-btn color="primary" rounded outlined flat to="/">Home</v-btn>
-      <v-btn color="primary" rounded outlined flat to="/Sample">Sample</v-btn>
-      <v-btn color="primary" rounded outlined flat to="/About">About</v-btn>
+      <v-btn color="primary" rounded outlined x-small flat to="/">Home</v-btn>
+      <v-btn color="primary" rounded outlined x-small flat to="/Sample">Sample</v-btn>
+      <v-btn color="primary" rounded outlined x-small flat to="/About">About</v-btn>
 
       <router-view />
     </v-main>
